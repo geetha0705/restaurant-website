@@ -23,12 +23,11 @@
         color: rgb(34, 1, 27);
       }
       .about h2{
-        background-color: aliceblue;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 40px;
-        justify-content: center;
-        height: 3cm;
-      }
+    background-color: aliceblue;
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
       nav{
     padding: 10px;
 }
@@ -330,7 +329,9 @@ width: 100%;
   .e1,.e2,.e3{
     width: 90%;
   }
-
+.about{
+    padding: 30px;
+}
   .bak img{
     height: auto;
   }
@@ -344,6 +345,19 @@ width: 100%;
     font-size: 30px;
   }
 
+}
+@media screen and (max-width:768px){
+
+  .topp{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .topp a{
+      font-size: 16px;
+  }
 }
 html{
     scroll-behavior: smooth;
