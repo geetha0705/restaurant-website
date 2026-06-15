@@ -16,7 +16,7 @@
       h1 {
         text-align: center;
         position: absolute;
-        top: 40%;
+        top: 65%;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 60px;
         left: 30%;
@@ -29,9 +29,17 @@
         justify-content: center;
         height: 3cm;
       }
+      nav{
+    padding: 10px;
+}
+
+.topp a{
+    display: block;
+    padding: 5px;
+}
       .bak img {
         width: 100%;
-        height: 15cm;
+        height: auto;
       }
       .topp {
         font-size: 20px;
@@ -148,25 +156,25 @@ text-align: center;
 }
 .m1{
   background: linear-gradient(to right, #e6c3a3, #ccf806);
-  width: 10cm;
+  width: 300px;
   height: 8cm;
   margin: 8px;
 }
 .m2{
     background: linear-gradient(to right, #e6c3a3, #ccf806);
-  width: 10cm;
+  width: 300px;
   height: 8cm;
   margin: 8px;
 }
 .m3{
     background: linear-gradient(to right, #e6c3a3, #ccf806);
-  width: 10cm;
+  width: 300px;
   height: 8cm;
   margin: 8px;
 }
 .m4{
     background: linear-gradient(to right, #e6c3a3, #ccf806);
-  width: 10cm;
+  width: 300px;
   height: 8cm;
   margin: 8px;
 }
@@ -277,6 +285,65 @@ width: 100%;
 }
 .ev h2:hover{
   color: #094102;
+}
+@media screen and (max-width: 768px) {
+
+  h1{
+    font-size: 32px;
+    left: 5%;
+    top: 30%;
+    text-align: center;
+  }
+
+  .topp{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ab img{
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .mall{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .m1,.m2,.m3,.m4{
+    width: 90%;
+    height: auto;
+  }
+
+  .mea img{
+    width: 90%;
+    height: auto;
+  }
+
+  .re{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .e1,.e2,.e3{
+    width: 90%;
+  }
+
+  .bak img{
+    height: auto;
+  }
+
+  .mea h2,
+  .ev h2{
+    font-size: 35px;
+  }
+
+  .about h2{
+    font-size: 30px;
+  }
+
 }
 html{
     scroll-behavior: smooth;
